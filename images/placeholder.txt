@@ -1,1 +1,19 @@
-Result
+Results
+
+Legend: 🔵 BLUE = road users (YOLOv8x, closed-set)  |  🔴 RED = work-zone devices (YOLO-World, open-vocabulary)
+
+Key finding
+Device group	Recall
+Compact traffic-control devices (cones, signs, etc.)	76% (29 / 38)
+Linear channelizing barriers (barriers, tape, barricades, etc.)	1% (1 / 96)
+
+Evaluated on 33 frames from 3 videos (153 bounding-box predictions).
+
+Sample detections
+	
+Stop sign and cones	Barrels, signs, materials
+STOP sign and traffic cones detected amid mixed traffic	Barrels, road signs and materials on the carriageway
+Road sign, barrel, concrete	Cones and jersey barrier
+"Men at work" sign, barrel and concrete block	Traffic cones and jersey barrier, low confidence on the linear barrier
+Sign board and formwork	Rebar and formwork
+Safety sign board on scaffolding	Rebar and formwork stacks on the carriageway
